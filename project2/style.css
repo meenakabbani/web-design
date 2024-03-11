@@ -1,0 +1,124 @@
+* {
+    background-color: rgb(139, 1, 1);
+}
+h1 {
+    font-family: "Nunito", sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+    color: rgb(246, 211, 192);
+    font-size: 100px;
+    line-height: 10px;
+}
+h2 {
+    font-family: "Nunito", sans-serif;
+    font-weight: 200;
+    text-align: center;
+    color: rgb(246, 211, 192);
+    font-size: 20px;  
+}
+h3 {
+    font-family: "Nunito", sans-serif;
+    color: rgb(246, 211, 192);
+    font-size: 30px; 
+    text-align: left;
+    line-height: 4px;
+}
+p {
+    font-family: "Nunito", sans-serif;
+    font-weight: 200;
+    color: rgb(246, 211, 192);
+    text-align: left;
+}
+.home-page {
+    display: inline-flex;
+    align-items: center;
+}
+#home-text {
+    padding: 10px;
+}
+.parent {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 50px;
+    grid-row-gap: 0px;
+    align-items: center;
+}
+ .div1 { 
+    grid-area: 1 / 1 / 2 / 6; 
+}
+#content-text p {
+    text-align: right;
+    padding: 10px;
+}
+#content-text h3 {
+    text-align: right;
+    padding: 10px;
+    line-height: 10px;
+    text-transform: uppercase;
+}
+.content{
+    display: inline-flex;
+    align-items: center;
+    padding-right: 35px;
+}
+#home-text p {
+    text-align: left;
+}
+#home-text h3 {
+    text-align: left;
+    line-height: 10px;
+    padding: 10px;
+    text-transform: uppercase;
+}
+#visual-text {
+    text-align: left;
+    padding: 10px;
+    text-align: center;
+}
+#visual-text h3 {
+    text-transform: uppercase;
+    text-align: center;
+}
+#visual-text p {
+    text-align: center;
+}
+.visual {
+    display: inline-flex;
+    align-items: center;
+    padding-right: 10px;
+    padding-left:10px;
+    column-gap: 20px;
+}
+.interactivity {
+    display: inline-flex;
+    padding: 50px;
+}
+#interactivity-text h3{
+    text-align: left;
+    padding: 10px;
+    line-height: 10px;
+    text-transform: uppercase;
+}
+#interactivity-text p {
+    text-align: left;
+    padding: 10px;
+}
+.recs h3 {
+    font-family: "Nunito", sans-serif;
+    color: rgb(246, 211, 192);
+    font-size: 30px; 
+    text-align: center;
+    line-height: 4px;
+    text-transform: uppercase;
+    padding-left: 50px;
+}
+.recs p {
+    font-family: "Nunito", sans-serif;
+    font-weight: 200;
+    color: rgb(246, 211, 192);
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
