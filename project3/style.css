@@ -1,0 +1,319 @@
+body {
+    background-color: rgb(249, 183, 197);
+   font-family: "Lilita One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color:rgb(149, 5, 5);
+}
+h1 {
+    font-size: 60px;
+    text-align: center;
+}
+h2 {
+    font-size: 40px;
+    text-align: center;
+}
+h3 {
+    text-align: center;
+    font-size: 18px;
+}
+.btn {
+    display: block;
+    background-color: rgb(149, 5, 5);
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px 10px;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    text-transform: uppercase;
+    text-align: center;
+    width: 150px;
+}
+.btn:hover {
+    background-color: white;
+    color: rgb(149, 5, 5);
+}
+#start-over {
+    position: absolute;
+    top: 25%;
+    bottom: 25%;
+    right: 25%;
+    left: 25%;
+}
+.btn1 {
+    display: block;
+    background-color: rgb(149, 5, 5);
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+    padding: 10px 10px;
+    position: fixed;
+    margin-top: 500px;
+    right: 45%;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    text-align: center;
+    width: 100px;
+}
+.btn1:hover {
+    background-color: white;
+    color: rgb(149, 5, 5);
+}
+.cups {
+    display: inline-flex;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    bottom: 25%;
+    right: 25%;
+    left: 25%;
+}
+.apron {
+    position: absolute;
+    top: 15%;
+    bottom: 20%;
+    right: 25%;
+    left: 30%;
+}
+.butter:hover {
+     opacity: 0;
+}   
+ .butter1:hover {
+    opacity:1;
+ }
+ .butter1 {
+    opacity:0;
+    transition: all, 2s;
+    position: absolute;
+    right:25%;
+    left: 15%;
+    top:100px;
+ }
+.butter {
+    transition: all, .5s;
+    position: absolute;
+    right:25%;
+    left: 25%;
+    top: 250px;
+}
+#title {
+    position: absolute;
+    top: 25%;
+    bottom: 25%;
+    right: 25%;
+    left: 25%;
+}
+.btn3 {
+    display: block;
+    background-color: rgb(149, 5, 5);
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+    padding: 10px 10px;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    text-transform: uppercase;
+    text-align: center;
+    width: 150px;
+}
+.btn3:hover {
+    background-color: white;
+    color: rgb(149, 5, 5);
+}
+.apron:hover {
+    cursor: pointer;
+    transform: translate(0,0) scale(110%,110%);
+}
+.cup1:hover {
+    cursor: pointer;
+    transform: translate(0,0) scale(110%,110%);
+}
+.cup3:hover {
+    cursor: pointer;
+    transform: translate(0,0) scale(110%,110%);
+}
+.dry:hover {
+    cursor: pointer;
+    transform: translate(0,0) scale(110%,110%);
+}
+.dry {
+    position: absolute;
+    top: 20%;
+    bottom: 25%;
+    right: 25%;
+    left: 34%;
+}
+.butter-page {
+    position: absolute;
+    top: 0%;
+    bottom: 30%;
+    right: 25%;
+    left: 20%;
+}
+.sugar {
+    position: absolute;
+    top: 10%;
+    bottom: 30%;
+    right: 25%;
+    left: 25%;
+}
+.sugar:hover {
+    cursor: pointer;
+    transform: translate(0,0) scale(120%,120%);
+}
+.egg:hover {
+    opacity: 0;
+} 
+.egg2 {
+   position: absolute;
+   right:25%;
+   left: 35%;
+   top:150px;
+}
+.egg {
+    opacity: 1;
+   transition: all, 1s;
+   position: absolute;
+   right:50%;
+   left: 25%;
+   top: 20px;
+} 
+.sudo {
+            width: 700px;
+            height: 700px;
+            margin: auto;
+            background-image: url(
+"images/bag.png");
+            background-size: cover;
+            transition: background-image 0.3s ease-in-out;
+        }
+.sudo:hover {
+            background-image: url(
+"images/choc.png");
+        }
+.btn4 {
+    display: block;
+    background-color: rgb(149, 5, 5);
+    color: white;
+    font-size: 10px;
+    text-decoration: none;
+    padding: 10px 10px;
+    position: absolute;
+    right:300px;
+    bottom: 20px;
+    left: 800px;
+    text-transform: uppercase;
+    text-align: center;
+    width: 50px;
+}
+.btn4:hover {
+    background-color: white;
+    color: rgb(149, 5, 5);
+}
+.sudo-dough {
+    width: 700px;
+    height: 700px;
+    margin: auto;
+    position: absolute;
+    top:80px;
+    bottom: 10px;
+    left:350px;
+    background-image: url(
+"images/dough1.png");
+    background-size: cover;
+    transition: background-image 0.8s ease-in-out;
+}
+.sudo-dough:hover {
+    background-image: url(
+"images/dough2.png");
+}
+.btn5 {
+    display: block;
+    background-color: rgb(149, 5, 5);
+    color: white;
+    font-size: 10px;
+    text-decoration: none;
+    padding: 10px 10px;
+    position: absolute;
+    right:300px;
+    bottom: 140px;
+    left: 900px;
+    text-transform: uppercase;
+    text-align: center;
+    width: 50px;
+}
+.btn5:hover {
+    background-color: white;
+    color: rgb(149, 5, 5);
+}
+.oven {
+    position: relative;
+    top: 15%;
+    bottom: 70px;
+    right: 25%;
+    left: 35%;  
+}
+.oven-375 {
+    position: absolute;
+    left:300px;
+    right: 700px;
+    bottom: 70px;
+}
+.oven-375:hover {
+    cursor: pointer;
+    transform: translate(0,0) scale(130%,130%);
+}
+.oven-425 {
+    position: absolute;
+    left:700px;
+    right: 300px;
+    bottom: 70px;
+}
+.oven-425:hover {
+    cursor: pointer;
+    transform: translate(0,0) scale(130%,130%);
+}
+a{
+    text-decoration: none;
+    color: rgb(149, 5, 5);
+}
+.btn-end {
+    display: block;
+    background-color: rgb(149, 5, 5);
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+    padding: 10px 10px;
+   margin-left: 650px;
+    text-transform: uppercase;
+    text-align: center;
+    width: 100px;
+}
+.btn5:hover {
+    background-color: white;
+    color: rgb(149, 5, 5);
+}
+.final {
+    position: relative;
+    top: 15%;
+    bottom: 70px;
+    right: 25%;
+    left: 25%; 
+}
+.final-text {
+    position: relative;
+    bottom: 100px;
+}
+.rotate {
+    animation: rotation 5s infinite linear;
+  }
+  @keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
