@@ -1,0 +1,466 @@
+* {
+    margin:10px 0;
+    padding:0;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+footer {
+    position: absolute;
+    top: -25px;
+    left: 0px;
+    z-index: 100;
+    height: 20px;
+}
+footer p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: white;
+}
+footer a {
+    text-decoration: none;
+    color: white;
+}
+img{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.ace_map{
+    position: absolute;
+    left: 230px;
+}
+.blue, 
+.orange, 
+.green1,
+.grey, 
+.brown, 
+.yellow,
+.red, 
+.green2,
+.purple {
+    margin: 0 10px;
+}
+.blue .circlea, .circlec, .circlee {
+    background-color: #0039ac;
+    color: white;
+}
+.circlea, .circlec, .circlee, .circleb, .circled, .circlef, .circlem, .circleg, .circlel, .circlej, .circlez, .circlen, .circleq, .circler, .circlew, .circle1, .circle1, .circle2, .circle3, .circle4, .circle5, .circle6, .circle7 {
+    text-align: center;
+    vertical-align: middle; 
+    line-height: 40px; 
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    margin: 1px; 
+    font-weight: bold;
+    font-size: 28px;
+    text-decoration: none;
+}
+.circles{
+    position: absolute;
+    bottom: 50px;
+    left: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.circles:hover{
+    cursor: pointer;
+}
+
+/*blue*/
+.ace_title h3{
+    text-transform: uppercase;
+    position: absolute;
+    bottom: 100px;
+    left: 35px;
+    color: #0039ac;
+    text-align: right;
+    z-index: 1000;
+}
+.ace_text{
+    text-align: left;
+    position: absolute;
+    left: 700px;
+    background-color:transparent;
+}
+h4{
+    margin-left: 200px; 
+    font-size: 25px;
+    text-transform: uppercase;
+}
+h5{
+    line-height: 1.75;
+    margin-left: 200px;
+    margin-right: 100px;
+    font-weight: 200;
+    font-size:16px;
+}
+.a_text{
+    background-color: transparent;
+    display: none;
+}
+.c_text{
+    background-color: transparent;
+    display: none;
+}
+.e_text{
+    background-color: transparent;
+    display: none;
+}
+
+/*orange*/
+.orange .circleb, .circled, .circlef, .circlem{
+    background-color: #ff6319;
+}
+.bdfm_title h3{
+    text-transform: uppercase;
+    position: absolute;
+    bottom: 100px;
+    left: 70px;
+    color: #ff6319;
+    text-align: right;
+    z-index: 1000;
+}
+.bdfm_text{
+    text-align: left;
+    position: absolute;
+    left: 700px;
+    background-color:transparent;
+}
+.b_text{
+    background-color: transparent;
+    display: none;
+}
+.d_text{
+    background-color: transparent;
+    display: none;
+}
+.f_text{
+    background-color: transparent;
+    display: none;
+}
+.m_text{
+    background-color: transparent;
+    display: none;
+}
+.bdfm_map{
+    position: absolute;
+    left: 245px;
+}
+
+/*green1*/
+.green1 .circleg{
+    background-color: #6cbe45;
+    position: relative;
+    left: 120px;
+}
+.g_title h3{
+    text-transform: uppercase;
+    position: absolute;
+    bottom: 100px;
+    left: 50px;
+    color: #6cbe45;
+    text-align: right;
+    z-index: 1000;
+}
+.g_text{
+    text-align: left;
+    position: absolute;
+    left: 700px;
+    background-color:transparent;
+}
+.g1_text{
+    background-color: transparent;
+    display: none;
+}
+.g_map{
+    position: absolute;
+    left: 245px;
+}
+
+/*grey*/
+.grey .circlel{
+    background-color: #a7a9ac;
+    position: relative;
+    left: 120px;
+}
+.l_title h3{
+    text-transform: uppercase;
+    position: absolute;
+    bottom: 100px;
+    left: 50px;
+    color: #a7a9ac;
+    text-align: right;
+    z-index: 1000;
+}
+.l_text{
+    text-align: left;
+    position: absolute;
+    left: 700px;
+    background-color:transparent;
+}
+.l1_text{
+    background-color: transparent;
+    display: none;
+}
+.l_map{
+    position: absolute;
+    left: 245px;
+}
+
+/*brown*/
+.brown .circlej, .circlez{
+    background-color: #996633;
+    position: relative;
+    left: 70px;
+}
+.jz_title h3{
+    text-transform: uppercase;
+    position: absolute;
+    bottom: 100px;
+    left: 50px;
+    color: #996633;
+    text-align: right;
+    z-index: 1000;
+}
+.jz_text{
+    text-align: left;
+    position: absolute;
+    left: 700px;
+    background-color:transparent;
+}
+.j_text{
+    background-color: transparent;
+    display: none;
+}
+.z_text{
+    background-color: transparent;
+    display: none;
+}
+.jz_map{
+    position: absolute;
+    left: 245px;
+}
+
+
+/*yellow*/
+.yellow .circlen, .circleq, .circler, .circlew{
+    background-color: #fccc0a;
+    color: black;
+}
+.nqrw_title h3{
+    text-transform: uppercase;
+    position: absolute;
+    bottom: 100px;
+    left: 70px;
+    color: #fccc0a;
+    text-align: right;
+    z-index: 1000;
+}
+.nqrw_text{
+    text-align: left;
+    position: absolute;
+    left: 700px;
+    background-color:transparent;
+}
+.n_text{
+    background-color: transparent;
+    display: none;
+}
+.q_text{
+    background-color: transparent;
+    display: none;
+}
+.r_text{
+    background-color: transparent;
+    display: none;
+}
+.w_text{
+    background-color: transparent;
+    display: none;
+}
+.nqrw_map{
+    position: absolute;
+    left: 245px;
+}
+
+
+/*red*/
+.red .circle1, .circle2, .circle3{
+    background-color: #ee352e;
+}
+.onetwothree_title h3{
+    text-transform: uppercase;
+    position: absolute;
+    bottom: 100px;
+    left: 40px;
+    color: #ee352e;
+    text-align: right;
+    z-index: 1000;
+}
+.onetwothree_text{
+    text-align: left;
+    position: absolute;
+    left: 700px;
+    background-color:transparent;
+}
+.one_text{
+    background-color: transparent;
+    display: none;
+}
+.two_text{
+    background-color: transparent;
+    display: none;
+}
+.three_text{
+    background-color: transparent;
+    display: none;
+}
+.onetwothree_map{
+    position: absolute;
+    left: 230px;
+}
+
+
+/*green2*/
+.green2 .circle4, .circle5, .circle6{
+    background-color: #00933c;
+}
+.fourfivesix_title h3{
+    text-transform: uppercase;
+    position: absolute;
+    bottom: 100px;
+    left: 40px;
+    color: #00933c;
+    text-align: right;
+    z-index: 1000;
+}
+.fourfivesix_text{
+    text-align: left;
+    position: absolute;
+    left: 700px;
+    background-color:transparent;
+}
+.four_text{
+    background-color: transparent;
+    display: none;
+}
+.five_text{
+    background-color: transparent;
+    display: none;
+}
+.six_text{
+    background-color: transparent;
+    display: none;
+}
+.fourfivesix_map{
+    position: absolute;
+    left: 230px;
+}
+
+/*purple*/
+.purple .circle7{
+    background-color: #b933ad;
+    position: relative;
+    left: 120px;
+}
+.seven_title h3{
+    text-transform: uppercase;
+    position: absolute;
+    bottom: 100px;
+    left: 50px;
+    color: #b933ad;
+    text-align: right;
+    z-index: 1000;
+}
+.seven_text{
+    text-align: left;
+    position: absolute;
+    left: 700px;
+    background-color:transparent;
+}
+.seven1_text{
+    background-color: transparent;
+    display: none;
+}
+.seven_map{
+    position: absolute;
+    left: 245px;
+}
+
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.blue, 
+.orange, 
+.green1,
+.grey, 
+.brown, 
+.yellow,
+.red, 
+.green2,
+.purple {
+    margin: 0 10px;
+}
+
+.blue .circle {
+    background-color: #0039ac ;
+    color: white;
+}
+.orange .circle {
+    background-color: #ff6319;
+    color: white;
+}
+.green1 .circle {
+    background-color: #6cbe45;
+    color: white;
+}
+.grey .circle {
+    background-color: #a7a9ac;
+    color: white;
+}
+.brown .circle {
+    background-color: #996633;
+    color: white;
+}
+.yellow .circle {
+    background-color: #fccc0a;
+    color: black;
+}
+.red .circle {
+    background-color: #ee352e;
+    color: white;
+}
+.green2 .circle {
+    background-color: #00933c;
+    color: white;
+}
+.purple .circle {
+    background-color: #b933ad;
+    color: white;
+}
+.circle {
+    text-align: center;
+    vertical-align: middle;
+    line-height: 30px; 
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    margin: 1px; 
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+}
+    
